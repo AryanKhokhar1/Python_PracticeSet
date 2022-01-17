@@ -1,0 +1,6 @@
+# length = float(input('Enter the length of cone :'))
+radius = float(input('Enter the radius of cone :'))
+height = float(input('Enter the height of cone :'))
+length = (radius**(2) + height**(2))**(0.5)
+print('Total Surface Area(TSA) of cone =',(22/7)*radius*(radius + length))
+print('Volume of Cone =',(1/3)*(22/7)*radius*radius*height)

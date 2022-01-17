@@ -1,0 +1,6 @@
+Amount = int(input('Enter the total money given :'))
+rate = float(input('Enter the interest rate :'))
+time1 = int(input('Enter the time in months :'))
+time2 = int(input('Enter the time in days :'))
+s_i = (Amount * (rate/100) * (time1 + (time2/30)))
+print('Total amount should pay =',s_i+Amount)
