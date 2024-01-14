@@ -1,0 +1,11 @@
+import pyttsx3
+engine = pyttsx3.init()
+engine.setProperty('rate',150)
+engine.setProperty('Volume',2)
+voices = engine.getProperty('voices')
+engine.setProperty('voices', voices[-1].id)
+f = open('store.txt','r')
+store = f.read()
+engine.say(store)
+engine.runAndWait()
+print(store)

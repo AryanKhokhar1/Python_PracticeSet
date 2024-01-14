@@ -1,0 +1,5 @@
+tup = (1,3,6,2,-5,8)
+tup = list(tup)
+tup.sort()
+print('Minimum value in tuple =',tup[0])
+print('Maximum value in tuple =',tup[-1])
