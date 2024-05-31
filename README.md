@@ -59,7 +59,7 @@ python-programs/
 
    ```sh
    git clone https://github.com/AryanKhokhar1/Python_PracticeSet.git
-   cd python-programs
+   cd Python_PracticeSet
    ```
 
 2. **Navigate to the desired directory:**
